@@ -1,0 +1,157 @@
+\documentclass[a4paper,12pt]{report}
+
+\input{packages} %Подключаем модуль пакетов
+\input{styles} %Подключаем модуль стилей
+
+\begin{document}
+
+\input{names} %Подключаем модуль перемиенования некоторых команд
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % % % % % Титульная страница % % % % % % % % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+
+\begin{center}
+ФГБОУ ВПО \par
+<<Сибирский государственный аэрокосмический университет \par имени академика М.Ф. Решетнева>>\par 
+\par
+\end{center}
+
+\vspace{50mm}
+
+\begin{center}
+{\large Сергиенко Антон Борисович}
+\end{center}
+
+\vspace{5mm}
+\begin{center}
+{\bf \large Пример использования шаблона документов
+\par}
+
+\vspace{20mm}
+
+\end{center}
+
+\vspace{100mm}
+
+
+\begin{center}
+{Красноярск -- 2013}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % % % % % Содержание % % % % % % % % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % % % % % Глава 1 % % % % % % % % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Очень интересная глава}
+
+\section {А тут маленький подраздел}
+
+\subsection {И еще подподраздел}
+
+Текст, ты такой \textit{веселый}! \textbf{Прекрати}!
+
+\subsection {Всякие примеры}
+
+Далее использование таблицы \textbf{\textbackslash tabularwide} без границ:
+
+\begin{tabularwide}
+\textbf{Текст:} & Что-то написано. \\
+\textbf{Текст 2:} & И тут что-то написано. \\
+\end{tabularwide}
+
+\textbf{Формула}:
+\begin{equation}
+\label{TestFunctions:eq:MHL_TestFuction_Ackley}
+f\left( \bar{x}\right) = 20 + e - 20e^{-0.2\sqrt{\frac{1}{n}\sum_{i=1}^{n}\bar{x}_i^2}}-e^{\frac{1}{n}\sqrt{\sum_{i=1}^{n}cos\left( 2\pi\cdot\bar{x}_i\right) }}, \text{ где}
+\end{equation}
+\indent $\bar{x}\in X$, $\bar{x}_j\in \left[ Left_j; Right_j\right] $, $Left_j=-5$, $Right_j=5$, $j=\overline{1,n}$.
+
+Рисунок:
+
+\begin{figure} [h] 
+  \center
+  \includegraphics [scale=0.4] {MHL_TestFuction_Ackley}
+  \caption{Функция Ackley} 
+  \label{TestFunctions:img:MHL_TestFuction_Ackleye}  
+\end{figure}
+
+Таблица с многострочной ячейкой \textbf{\textbackslash specialcell}.
+
+\begin{tabularwide}
+\textbf{Будет две строки:} &\specialcell{$\bar{x}$ --- вещественный вектор;\\$n$ --- размерность вещественного вектора.}  \\
+\textbf{А тут одна:} & Бла-бла-бла.   \\
+\end{tabularwide}
+
+А теперь приведем пример списка:
+
+\begin{itemize}
+\item \textbf{Пункт 1} --- бла бла бла;
+\item \textbf{Пункт 2} --- бла бла бла;
+\item \textbf{Пункт 3} --- бла бла бла;
+\item \textbf{Пункт 4} --- бла бла бла;
+\item \textbf{Пункт 5} --- бла бла бла;
+\item \textbf{Пункт 6} --- бла бла бла;
+\item \textbf{Пункт 7} --- бла бла бла.
+\end{itemize} 
+
+Пример переноса символа в формуле через \textbf{\textbackslash hm}. Вот тут пишем длинную формулу: $y\left( \bar{x}\right) \hm= 2x+3x^2\hm+sin\left( x\right) $.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % % % % % % Глава 2 % % % % % % % % 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Еще одна глава}
+
+\section {Нужно еще подраздел поставить}
+
+Приведу пример листинга кода:
+
+\begin{lstlisting}[caption=Код функции MHL\_TestFuction\_SumVector]
+double MHL_TestFuction_SumVector(int *x, int VMHL_N)
+{
+/*
+Сумма всех элементов бинарного вектора.
+*/
+double VMHL_Result=0;
+for (int i=0;i<VMHL_N;i++) VMHL_Result+=x[i];
+return VMHL_Result;
+}
+
+\end{lstlisting}
+
+А теперь пример псевдокода:
+
+\begin{algorithm}
+\caption{Алгоритм собирания файлов библиотеки} \label{alg:MakingCppH}
+\begin{algorithmic}
+\State \textbf{Начало алгоритма}
+\State $ MathHarrixLibrary.cpp+=Header.cpp $;
+\ForAll {папок}
+\State $ MathHarrixLibrary.cpp+=\text{\textit{Код 1. Название раздела}} $;
+\State $ MathHarrixLibrary.h+=\text{\textit{Код 2. Название раздела}} $;
+\ForAll {файлов папки расширения *.cpp, *.tpp и *.h}
+\If {есть файл *.cpp}
+\State $ MathHarrixLibrary.cpp+=<File>.cpp $;
+\Else
+\State $ ResultTpp+=<File>.tpp $;
+\EndIf
+\State $ MathHarrixLibrary.h+=<File>.h $;
+\EndFor
+\EndFor
+\State Сохранить $ MathHarrixLibrary.h $ в папке temp\_library;
+\State \textbf{Конец алгоритма}
+\end{algorithmic}
+\end{algorithm}
+
+
+\newpage
+\end{document}

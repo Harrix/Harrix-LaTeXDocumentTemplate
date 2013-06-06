@@ -34,6 +34,10 @@ https://github.com/Harrix/Harrix-Document-Template-LaTeX
 
 **[*]** разное
 
+**1.1.**
+
+**[+]** добавлен второй пример _Example2.tex
+
 **1.0.**
 
 **[*]** Начальная версия.
