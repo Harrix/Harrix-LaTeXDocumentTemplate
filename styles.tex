@@ -184,10 +184,13 @@ literate={Ö}{{\"O}}1
 %%% Таблицы %%%
 % Раздвигаем в таблице без границ отступы между строками вновой команде
 \newenvironment{tabularwide}%
-{\setlength{\extrarowheight}{0.3cm}\begin{tabular*}{\linewidth}{@{}p{17em}l}}{\end{tabular*}}
+{\setlength{\extrarowheight}{0.3cm}\begin{tabular}{  p{\dimexpr 0.45\linewidth-2\tabcolsep} p{\dimexpr 0.55\linewidth-2\tabcolsep}  }}  {\end{tabular}}
 % Многострочная ячейка в таблице
 \newcommand{\specialcell}[2][c]{%
   \begin{tabular}[t]{@{}l@{}}#2\end{tabular}}
+  
+
+
   
 %%% Абзацы %%
 % Отсупы между строками
