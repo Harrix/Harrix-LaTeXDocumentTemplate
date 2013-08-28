@@ -1,7 +1,7 @@
 Harrix-Document-Template-LaTeX
 ==============================
 
-Версия 1.3
+Версия 1.4
 
 Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
 
@@ -36,17 +36,23 @@ https://github.com/Harrix/Harrix-Document-Template-LaTeX
 
 **[*]** разное
 
+**1.4.**
+
+**[+]** в файле styles добавлен тэг tabularwide2.
+
+**[-]** тэг tabularwide2 исправлен на tabularwide08.
+
 **1.3.**
 
-**[+]** в файле syles добавлен тэг tabularwide2
+**[+]** в файле styles добавлен тэг tabularwide2.
 
 **1.2.**
 
-**[-]** исправлен тэг tabularwide
+**[-]** исправлен тэг tabularwide.
 
 **1.1.**
 
-**[+]** добавлен второй пример _Example2.tex
+**[+]** добавлен второй пример _Example2.tex.
 
 **1.0.**
 

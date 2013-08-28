@@ -185,14 +185,14 @@ literate={Ö}{{\"O}}1
 % Раздвигаем в таблице без границ отступы между строками вновой команде
 \newenvironment{tabularwide}%
 {\setlength{\extrarowheight}{0.3cm}\begin{tabular}{  p{\dimexpr 0.45\linewidth-2\tabcolsep} p{\dimexpr 0.55\linewidth-2\tabcolsep}  }}  {\end{tabular}}
-\newenvironment{tabularwide2}%
+\newenvironment{tabularwide08}%
 {\setlength{\extrarowheight}{0.3cm}\begin{tabular}{  p{\dimexpr 0.8\linewidth-2\tabcolsep} p{\dimexpr 0.2\linewidth-2\tabcolsep}  }}  {\end{tabular}}
 % Многострочная ячейка в таблице
 \newcommand{\specialcell}[2][c]{%
-  \begin{tabular}[t]{@{}l@{}}#2\end{tabular}}
-  
+  {\renewcommand{\arraystretch}{1}\begin{tabular}[t]{@{}l@{}}#2\end{tabular}}}
 
-
+\newcommand{\specialcelltwoin}[2][c]{%
+  {\renewcommand{\arraystretch}{1}\begin{tabular}[t]{@{}b{2in}}#2\end{tabular}}}
   
 %%% Абзацы %%
 % Отсупы между строками
