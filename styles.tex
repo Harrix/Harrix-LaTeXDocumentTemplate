@@ -37,6 +37,8 @@
 \definecolor{linkcolor}{HTML}{799B03} % цвет ссылок
 \definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
 \definecolor{citecolor}{HTML}{799B03} % цвет гиперссылок
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
 
 %%% Отображение кода %%%
 % Настройки отображения кода
@@ -153,6 +155,18 @@ literate={Ö}{{\"O}}1
 \DeclareCaptionFormat{listing}{\parbox{\linewidth}{\colorbox{сaptionbk}{\parbox{\linewidth}{#1#2#3}}\vskip-4pt}}
 \captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
 \renewcommand{\lstlistingname}{Код} % Переименование Listings в нужное именование структуры
+% Для отображения кода формата xml
+\lstdefinelanguage{XML}
+{
+  morestring=[s]{"}{"},
+  morecomment=[s]{?}{?},
+  morecomment=[s]{!--}{--},
+  commentstyle=\color{comment},
+  moredelim=[s][\color{black}]{>}{<},
+  moredelim=[s][\color{red}]{\ }{=},
+  stringstyle=\color{string},
+  identifierstyle=\color{keyword}
+}
 
 %%% Гиперссылки %%%
 \hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor,citecolor=citecolor, colorlinks=true}
@@ -160,7 +174,7 @@ literate={Ö}{{\"O}}1
 %%%  Оформление абзацев %%%
 \setlength{\parskip}{0.3cm} % отступы между абзацами
 % оформление списков
-\setlist{nolistsep, itemsep=5pt,parsep=0pt,leftmargin=1.5cm}
+\setlist{leftmargin=1.5cm,topsep=0pt}
 
 %%% Псевдокоды %%%
 % Добавляем свои блоки

@@ -1,7 +1,7 @@
 Harrix-Document-Template-LaTeX
 ==============================
 
-Версия 1.4
+Версия 1.5
 
 Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
 
@@ -35,6 +35,12 @@ https://github.com/Harrix/Harrix-Document-Template-LaTeX
 **[+]** добавление
 
 **[*]** разное
+
+**1.5.**
+
+**[+]**  Добавил правильное отображение xml кода через listings.
+
+**[-]** Исправил отступы в шаблонах.
 
 **1.4.**
 
