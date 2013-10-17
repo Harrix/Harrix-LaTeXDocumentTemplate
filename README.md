@@ -7,7 +7,7 @@ HarrixLaTeXDocumentTemplate
 
 https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 
-Шаблон распространяется по лицензии Apache License, Version 2.0.
+Шаблон распространяется по лицензии [Apache License, Version 2.0](../master/LICENSE.txt).
 
 Про структуру проекта
 ---------------------
