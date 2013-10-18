@@ -3,7 +3,7 @@ HarrixLaTeXDocumentTemplate
 
 Версия 1.9
 
-Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
+Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах [HarrixTestFunctions](https://github.com/Harrix/HarrixTestFunctions), [HarrixMathLibrary](https://github.com/Harrix/HarrixMathLibrary), [Standard-Genetic-Algorithm](https://github.com/Harrix/Standard-Genetic-Algorithm)  и др.
 
 https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 
@@ -18,6 +18,11 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
  - [**styles.tex**](../master/styles.tex) - стили оформления документа, руссификация некоторых пакетов;
 
 Все остальное - это примеры использования этих файлов.
+
+Скриншот применения файлов
+--------------------------
+
+![alt text](../master/images/example.png "Пример применения файлов")
 
 Сведения для редактирования файлов
 ----------------------------------
