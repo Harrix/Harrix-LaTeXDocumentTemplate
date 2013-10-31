@@ -1,6 +1,10 @@
 HarrixLaTeXDocumentTemplate
 ===========================
 
+1.10
+----
+ * Добавление поддержки графиков pdfplots.
+
 1.9
 ---
  * Добавление цвета шапки в таблицах tableheadcolor в styles.tex.

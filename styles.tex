@@ -44,11 +44,13 @@
 \definecolor{urlcolor}{HTML}{799B03} % цвет гиперссылок
 \definecolor{citecolor}{HTML}{799B03} % цвет гиперссылок
 \definecolor{gray}{rgb}{0.4,0.4,0.4}
-\definecolor{tableheadcolor}{HTML}{e5e5e5} % цвет шапки в таблицах
+\definecolor{tableheadcolor}{HTML}{E5E5E5} % цвет шапки в таблицах
 \definecolor{darkblue}{rgb}{0.0,0.0,0.6}
 % Цвета для графиков
-\definecolor{plotmain}{HTML}{97bbcd}
-\definecolor{plotgrid}{HTML}{ececec}
+\definecolor{plotmain}{HTML}{97BBCD}
+\definecolor{plotsecond}{HTML}{FF0000}
+\definecolor{plotgrid}{HTML}{ECECEC}
+\definecolor{plotcoordinate}{HTML}{88969C}
 
 %%% Отображение кода %%%
 % Настройки отображения кода
@@ -221,3 +223,17 @@ literate={Ö}{{\"O}}1
 %%% Абзацы %%
 % Отсупы между строками
 \singlespacing
+
+%%% Рисование графиков %%
+\pgfplotsset{
+every axis legend/.append style={at={(0.5,-0.13)},anchor=north,legend cell align=left},
+tick label style={font=\tiny\scriptsize},
+label style={font=\scriptsize},
+legend style={font=\scriptsize},
+grid=major,
+major grid style={plotgrid},
+axis lines=left,
+legend style={draw=none},
+/pgf/number format/.cd,
+1000 sep={}
+}
