@@ -1,5 +1,5 @@
 %%% HarrixLaTeXDocumentTemplate
-%%% Версия 1.13
+%%% Версия 1.14
 %%% Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
 %%% https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 %%% Шаблон распространяется по лицензии Apache License, Version 2.0.
@@ -231,8 +231,10 @@ every axis legend/.append style={at={(0.5,-0.13)},anchor=north,legend cell align
 tick label style={font=\tiny\scriptsize},
 label style={font=\scriptsize},
 legend style={font=\scriptsize},
-grid=major,
+grid=both,
+minor tick num=2,
 major grid style={plotgrid},
+minor grid style={plotgrid},
 axis lines=left,
 legend style={draw=none},
 /pgf/number format/.cd,
