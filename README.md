@@ -15,7 +15,7 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 Главными файлами являются:
  - [**names.tex**](../master/names.tex) - переопределение некоторых имен и команд в пакетах;
  - [**packages.tex**](../master/packages.tex) - подключение пакетов для \*.tex файлов;
- - [**styles.tex**](../master/styles.tex) - стили оформления документа, русификация некоторых пакетов;
+ - [**styles.tex**](../master/styles.tex) - стили оформления документа, русификация некоторых пакетов.
 
 Все остальное - это примеры использования этих файлов.
 
