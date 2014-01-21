@@ -1,0 +1,50 @@
+\documentclass[a4paper,12pt]{report}
+
+\input{packages} %Подключаем модуль пакетов
+\input{styles} %Подключаем модуль стилей
+
+% Для того, чтобы ддве строчки ниже скомпилировались
+% нужно компилировать с параметрами:
+% pdflatex -shell-escape %.tex
+% Подробнее http://blog.harrix.org/?p=849#h5_4
+\usepgfplotslibrary{external}
+\tikzexternalize[prefix=TikzPictures/]
+
+\begin{document}
+
+\input{names} %Подключаем модуль переименования некоторых команд
+
+\begin{tikzpicture}
+\begin{axis}[view/h=70]
+\addplot3[
+surf,
+shader=flat,
+samples=50,
+domain=-3:3,y domain=-2:2]
+{sin(-x+y)};
+\end{axis}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\begin{axis}[view/h=70]
+\addplot3[
+surf,
+shader=flat,
+samples=50,
+domain=-3:3,y domain=-2:2]
+{sin(deg(x/2+y))};
+\end{axis}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\begin{axis}[view/h=70]
+\addplot3[
+surf,
+shader=flat,
+samples=50,
+domain=-3:3,y domain=-2:2]
+{sin(deg(x+y^2))};
+\end{axis}
+\end{tikzpicture}
+
+\end{document}
