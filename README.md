@@ -52,6 +52,8 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
  * **HarrixLaTeXSymbols** - глава о условных обозначениях, которые используются в LaTeX документах. Использую у себя в крупных работах с математическим уклоном:https://github.com/Harrix/HarrixLaTeXSymbols
  * **HarrixQtLibraryForLaTeX** - библиотека для отображения различных данных в LaTeX файлах: https://github.com/Harrix/HarrixQtLibraryForLaTeX
  * **HarrixClass_DataOfHarrixOptimizationTesting** - класс HarrixClass_DataOfHarrixOptimizationTesting для считывания информации формата данных Harrix Optimization Testing на C++: https://github.com/Harrix/HarrixClass_DataOfHarrixOptimizationTesting
+ 
+ и др.
 
 
 История проекта
