@@ -9,6 +9,11 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 
 Шаблон распространяется по лицензии [Apache License, Version 2.0](../master/LICENSE.txt).
 
+Установка и использование
+-------------------------
+
+Подробно можно прочитать в статье http://blog.harrix.org/?p=887.
+
 Про структуру проекта
 ---------------------
 
@@ -23,6 +28,13 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 --------------------------
 
 ![alt text](../master/images/example.png "Пример применения файлов")
+
+![alt text](../master/images/example2.png "Пример применения файлов")
+
+![alt text](../master/images/example3.png "Пример применения файлов")
+
+![alt text](../master/images/example4.png "Пример применения файлов")
+
 
 Сведения для редактирования файлов
 ----------------------------------
