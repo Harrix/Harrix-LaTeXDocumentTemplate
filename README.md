@@ -61,6 +61,8 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 
 Подробный список изменений в файле [CHANGELOG.md](../master/CHANGELOG.md).
 
+Данный проект основан на проекте https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template
+
 Контакты
 --------
 
