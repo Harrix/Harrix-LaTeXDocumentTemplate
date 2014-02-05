@@ -14,6 +14,8 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 
 Подробно можно прочитать в статье http://blog.harrix.org/?p=887.
 
+О функциях добавления объектов (текста, матриц, графиков и др.) читайте в проекте https://github.com/Harrix/HarrixQtLibraryForLaTeX.
+
 Про структуру проекта
 ---------------------
 
@@ -54,7 +56,11 @@ https://github.com/Harrix/HarrixLaTeXDocumentTemplate
  * **HarrixClass_DataOfHarrixOptimizationTesting** - класс HarrixClass_DataOfHarrixOptimizationTesting для считывания информации формата данных Harrix Optimization Testing на C++: https://github.com/Harrix/HarrixClass_DataOfHarrixOptimizationTesting
  
  и др.
+ 
+Использованные технологии
+-------------------------
 
+- LaTeX, MiKTeX, BibTex, TeXstudio, pscyr.
 
 История проекта
 ---------------
