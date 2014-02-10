@@ -1,6 +1,10 @@
 HarrixLaTeXDocumentTemplate
 ===========================
 
+1.16
+----
+ * В styles.tex переделана многострочная ячейка \newcommand{\specialcelltwoin}.
+
 1.15
 ----
  * Добавлены карты цветов для трехмерных графиков в стиле графиков Mathcad и Matlab.

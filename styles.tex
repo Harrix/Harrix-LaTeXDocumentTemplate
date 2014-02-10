@@ -1,5 +1,5 @@
 %%% HarrixLaTeXDocumentTemplate
-%%% Версия 1.15
+%%% Версия 1.16
 %%% Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
 %%% https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 %%% Шаблон распространяется по лицензии Apache License, Version 2.0.
@@ -218,8 +218,10 @@ literate={Ö}{{\"O}}1
 \newcommand{\specialcell}[2][c]{%
   {\renewcommand{\arraystretch}{1}\begin{tabular}[t]{@{}l@{}}#2\end{tabular}}}
 
+% Многострочная ячейка, где текст не может выйти за границы
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcommand{\specialcelltwoin}[2][c]{%
-  {\renewcommand{\arraystretch}{1}\begin{tabular}[t]{@{}b{2in}}#2\end{tabular}}}
+  {\renewcommand{\arraystretch}{1}\begin{tabular}[t]{@{}P{1.98in}@{}}#2\end{tabular}}}
   
 %%% Абзацы %%
 % Отсупы между строками
