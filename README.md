@@ -20,6 +20,7 @@ HarrixLaTeXDocumentTemplate
 ---------------------
 
 Главными файлами являются:
+
  - [**names.tex**](https://github.com/Harrix/HarrixLaTeXDocumentTemplate/blob/master/names.tex) - переопределение некоторых имен и команд в пакетах;
  - [**packages.tex**](https://github.com/Harrix/HarrixLaTeXDocumentTemplate/blob/master/packages.tex) - подключение пакетов для \*.tex файлов;
  - [**styles.tex**](https://github.com/Harrix/HarrixLaTeXDocumentTemplate/blob/master/styles.tex) - стили оформления документа, русификация некоторых пакетов.
