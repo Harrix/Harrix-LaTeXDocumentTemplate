@@ -1,5 +1,5 @@
 %%% HarrixLaTeXDocumentTemplate
-%%% Версия 1.16
+%%% Версия 1.17
 %%% Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
 %%% https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 %%% Шаблон распространяется по лицензии Apache License, Version 2.0.
@@ -209,11 +209,12 @@ literate={Ö}{{\"O}}1
 \newcommand{\hmm}[1]{#1\nobreak\discretionary{}{\hbox{\ensuremath{#1}}}{}}
 
 %%% Таблицы %%%
-% Раздвигаем в таблице без границ отступы между строками вновой команде
+% Раздвигаем в таблице без границ отступы между строками в новой команде
 \newenvironment{tabularwide}%
 {\setlength{\extrarowheight}{0.3cm}\begin{tabular}{  p{\dimexpr 0.45\linewidth-2\tabcolsep} p{\dimexpr 0.55\linewidth-2\tabcolsep}  }}  {\end{tabular}}
 \newenvironment{tabularwide08}%
 {\setlength{\extrarowheight}{0.3cm}\begin{tabular}{  p{\dimexpr 0.8\linewidth-2\tabcolsep} p{\dimexpr 0.2\linewidth-2\tabcolsep}  }}  {\end{tabular}}
+
 % Многострочная ячейка в таблице
 \newcommand{\specialcell}[2][c]{%
   {\renewcommand{\arraystretch}{1}\begin{tabular}[t]{@{}l@{}}#2\end{tabular}}}
@@ -222,6 +223,9 @@ literate={Ö}{{\"O}}1
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \newcommand{\specialcelltwoin}[2][c]{%
   {\renewcommand{\arraystretch}{1}\begin{tabular}[t]{@{}P{1.98in}@{}}#2\end{tabular}}}
+  
+% Команда для переворачивания текста в ячейке таблицы на 90 градусов
+\newcommand*\rot{\rotatebox{90}}
   
 %%% Абзацы %%
 % Отсупы между строками

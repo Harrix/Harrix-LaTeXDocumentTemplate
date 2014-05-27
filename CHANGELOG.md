@@ -1,6 +1,10 @@
 HarrixLaTeXDocumentTemplate
 ===========================
 
+1.17
+----
+ * В styles.tex добавлена команда \rot для переворачивания текста в ячейке таблицы на 90 градусов.
+
 1.16
 ----
  * В styles.tex переделана многострочная ячейка \newcommand{\specialcelltwoin}.
