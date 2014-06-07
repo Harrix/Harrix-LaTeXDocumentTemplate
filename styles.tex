@@ -1,5 +1,5 @@
 %%% HarrixLaTeXDocumentTemplate
-%%% Версия 1.17
+%%% Версия 1.18
 %%% Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
 %%% https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 %%% Шаблон распространяется по лицензии Apache License, Version 2.0.
@@ -227,11 +227,11 @@ literate={Ö}{{\"O}}1
 % Команда для переворачивания текста в ячейке таблицы на 90 градусов
 \newcommand*\rot{\rotatebox{90}}
   
-%%% Абзацы %%
+%%% Абзацы %%%
 % Отсупы между строками
 \singlespacing
 
-%%% Рисование графиков %%
+%%% Рисование графиков %%%
 \pgfplotsset{
 every axis legend/.append style={at={(0.5,-0.13)},anchor=north,legend cell align=left},
 tick label style={font=\tiny\scriptsize},
@@ -254,3 +254,7 @@ legend style={draw=none},
 \pgfplotsset{
 /pgfplots/colormap={matlab}{rgb255(0cm)=(0,0,128) rgb255(1cm)=(0,0,255) rgb255(3cm)=(0,255,255) rgb255(5cm)=(255,255,0) rgb255(7cm)=(255,0,0) rgb255(8cm)=(128,0,0)}
 }
+
+%%% Разное %%%
+% Галочка для отмечания в тескте вариантов как OK
+\def\checkmark{\tikz\fill[scale=0.3](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
