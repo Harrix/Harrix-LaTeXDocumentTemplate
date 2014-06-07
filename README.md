@@ -1,7 +1,7 @@
 HarrixLaTeXDocumentTemplate
 ===========================
 
-Версия 1.18
+Версия 1.19
 
 Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах [HarrixTestFunctions](https://github.com/Harrix/HarrixTestFunctions), [HarrixMathLibrary](https://github.com/Harrix/HarrixMathLibrary), [Standard-Genetic-Algorithm](https://github.com/Harrix/Standard-Genetic-Algorithm)  и др.
 

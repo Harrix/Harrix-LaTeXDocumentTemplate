@@ -1,6 +1,11 @@
 HarrixLaTeXDocumentTemplate
 ===========================
 
+1.19
+----
+ * Добавлен темнозеленый цвет в styles.tex.
+ * Подключен пакет \usepackage{mathabx}.
+
 1.18
 ----
  * В styles.tex добавлена команда \checkmark для отображения галочки в текстах.
