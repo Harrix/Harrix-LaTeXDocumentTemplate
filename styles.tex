@@ -1,5 +1,5 @@
 %%% HarrixLaTeXDocumentTemplate
-%%% Версия 1.21
+%%% Версия 1.22
 %%% Шаблон документов в LaTeX на русском языке. Данный шаблон применяется в проектах HarrixTestFunctions, MathHarrixLibrary, Standard-Genetic-Algorithm  и др.
 %%% https://github.com/Harrix/HarrixLaTeXDocumentTemplate
 %%% Шаблон распространяется по лицензии Apache License, Version 2.0.
@@ -26,9 +26,6 @@
 \RequirePackage{caption}
 \DeclareCaptionLabelSeparator{defffis}{. }
 \captionsetup{justification=centering,labelsep=defffis}
-
-%%% Оглавление %%%
-\renewcommand{\cftchapdotsep}{\cftdotsep}
 
 %%% Абзацы %%%
 % Отсупы между строками
@@ -295,3 +292,10 @@ legend style={draw=none},
 %\fancyhf{}                          % Очищаем текущие значения
 %\fancyhead[C]{\thepage}             % Печатаем номер страницы на середине верхнего поля
 %\renewcommand{\headrulewidth}{0pt}  % Убираем разделительную линию
+
+%%% Оглавление %%%
+%\renewcommand{\cftchapdotsep}{\cftdotsep}
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+%\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+%\renewcommand{\cftfigleader}{\cftdotfill{\cftdotsep}}
+%\renewcommand{\cfttableader}{\cftdotfill{\cftdotsep}}
