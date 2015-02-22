@@ -69,7 +69,7 @@
 
 \textbf{Формула}:
 \begin{equation}
-\label{TestFunctions:eq:MHL_TestFuction_Ackley}
+\label{TestFunctions:eq:HML_TestFuction_Ackley}
 f\left( \bar{x}\right) = 20 + e - 20e^{-0.2\sqrt{\frac{1}{n}\sum_{i=1}^{n}\bar{x}_i^2}}-e^{\frac{1}{n}\sqrt{\sum_{i=1}^{n}cos\left( 2\pi\cdot\bar{x}_i\right) }}, \text{ где}
 \end{equation}
 \indent $\bar{x}\in X$, $\bar{x}_j\in \left[ Left_j; Right_j\right] $, $Left_j=-5$, $Right_j=5$, $j=\overline{1,n}$.
@@ -78,9 +78,9 @@ f\left( \bar{x}\right) = 20 + e - 20e^{-0.2\sqrt{\frac{1}{n}\sum_{i=1}^{n}\bar{x
 
 \begin{figure} [h] 
   \center
-  \includegraphics [scale=0.4] {MHL_TestFuction_Ackley}
+  \includegraphics [scale=0.4] {HML_TestFuction_Ackley}
   \caption{Функция Ackley} 
-  \label{TestFunctions:img:MHL_TestFuction_Ackleye}  
+  \label{TestFunctions:img:HML_TestFuction_Ackleye}  
 \end{figure}
 
 Таблица с многострочной ячейкой \textbf{\textbackslash specialcell}.
@@ -115,15 +115,15 @@ f\left( \bar{x}\right) = 20 + e - 20e^{-0.2\sqrt{\frac{1}{n}\sum_{i=1}^{n}\bar{x
 
 Приведу пример листинга кода:
 
-\begin{lstlisting}[caption=Код функции MHL\_TestFuction\_SumVector]
-double MHL_TestFuction_SumVector(int *x, int VMHL_N)
+\begin{lstlisting}[caption=Код функции HML\_TestFuction\_SumVector]
+double HML_TestFuction_SumVector(int *x, int VHML_N)
 {
 /*
 Сумма всех элементов бинарного вектора.
 */
-double VMHL_Result=0;
-for (int i=0;i<VMHL_N;i++) VMHL_Result+=x[i];
-return VMHL_Result;
+double VHML_Result=0;
+for (int i=0;i<VHML_N;i++) VHML_Result+=x[i];
+return VHML_Result;
 }
 
 \end{lstlisting}
