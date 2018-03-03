@@ -1,5 +1,4 @@
-HarrixLaTeXDocumentTemplate
-===========================
+# HarrixLaTeXDocumentTemplate
 
 Версия 1.22
 
@@ -9,15 +8,13 @@ HarrixLaTeXDocumentTemplate
 
 Шаблон распространяется по лицензии [MIT](https://github.com/Harrix/HarrixLaTeXDocumentTemplate/blob/master/LICENSE).
 
-Установка и использование
--------------------------
+## Установка и использование
 
 Подробно можно прочитать в статье [http://blog.harrix.org/?p=887](http://blog.harrix.org/?p=887).
 
 О функциях добавления объектов (текста, матриц, графиков и др.) читайте в проекте [https://github.com/Harrix/HarrixQtLibraryForLaTeX](https://github.com/Harrix/HarrixQtLibraryForLaTeX).
 
-Про структуру проекта
----------------------
+## Про структуру проекта
 
 Главными файлами являются:
 
@@ -27,8 +24,7 @@ HarrixLaTeXDocumentTemplate
 
 Все остальное - это примеры использования этих файлов.
 
-Скриншоты применения файлов
---------------------------
+## Скриншоты применения файлов
 
 ![alt text](https://raw.github.com/Harrix/HarrixLaTeXDocumentTemplate/master/images/example.png "Пример применения файлов")
 
@@ -39,8 +35,7 @@ HarrixLaTeXDocumentTemplate
 ![alt text](https://raw.github.com/Harrix/HarrixLaTeXDocumentTemplate/master/images/example4.png "Пример применения файлов")
 
 
-Сведения для редактирования файлов
-----------------------------------
+## Сведения для редактирования файлов
 
 Для полноценной работы редактированию LaTeX документа вам потребуются программа для компиляции \*.tex документов в \*.pdf. Автор использует для этого связку [MiKTex](http://www.miktex.org/) и [TeXstudio](http://texstudio.sourceforge.net/). 
 
@@ -48,8 +43,7 @@ HarrixLaTeXDocumentTemplate
 
 Подробное описание установки и настройки связки MiKTeX + TeXstudio + pscyr можно прочитать в статье [http://blog.harrix.org/?p=849](http://blog.harrix.org/?p=849).
 
-Проекты, которые связаны с данным шаблоном
-------------------------------------------
+## Проекты, которые связаны с данным шаблоном
 
  * **HarrixBiblio** - файл библиографических ссылок **biblio.bib**, которые я использую в своих статьях в формате LaTeX: [https://github.com/Harrix/HarrixBiblio](https://github.com/Harrix/HarrixBiblio)
  * **HarrixLaTeXSymbols** - глава о условных обозначениях, которые используются в LaTeX документах. Использую у себя в крупных работах с математическим уклоном:[https://github.com/Harrix/HarrixLaTeXSymbols](https://github.com/Harrix/HarrixLaTeXSymbols)
@@ -58,20 +52,17 @@ HarrixLaTeXDocumentTemplate
  
  и др.
  
-Использованные технологии
--------------------------
+## Использованные технологии
 
 - [LaTeX](http://ru.wikipedia.org/wiki/LaTeX), [MiKTeX](http://miktex.org/), [BiBTex](http://ru.wikipedia.org/wiki/BibTeX), [TeXstudio](http://texstudio.sourceforge.net/), [PSCyr]([http://blog.harrix.org/?p=444](http://blog.harrix.org/?p=444)).
 
-История проекта
----------------
+## История проекта
 
 Подробный список изменений в файле [CHANGELOG.md](https://github.com/Harrix/HarrixLaTeXDocumentTemplate/blob/master/CHANGELOG.md).
 
 Данный проект основан на проекте https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template
 
-Контакты
---------
+## Контакты
 
 Автор: Сергиенко Антон Борисович.
 
