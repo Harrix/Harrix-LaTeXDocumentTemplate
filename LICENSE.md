@@ -1,6 +1,6 @@
 # The MIT License
 
-Copyright © 2015-present Sergienko Anton
+Copyright © 2013-present Sergienko Anton
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
