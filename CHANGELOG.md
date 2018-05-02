@@ -82,20 +82,20 @@
 
 ## 1.4
 
-* в файле styles добавлен тэг tabularwide2.
-* тэг tabularwide2 исправлен на tabularwide08.
+* В файле styles добавлен тэг tabularwide2.
+* Тэг tabularwide2 исправлен на tabularwide08.
 
 ## 1.3
 
-* в файле styles добавлен тэг tabularwide2.
+* В файле styles добавлен тэг tabularwide2.
 
 ## 1.2
 
-* исправлен тэг tabularwide.
+* Исправлен тэг tabularwide.
 
 ## 1.1
 
-* добавлен второй пример _Example2.tex.
+* Добавлен второй пример _Example2.tex.
 
 ## 1.0
 
